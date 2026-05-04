@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RaizIA — Privacy Policy / Política de Privacidade</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Source+Serif+4:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --green: #2d6a4f;
+    --green-light: #40916c;
+    --green-pale: #d8f3dc;
+    --gold: #b7791f;
+    --bg: #fafaf7;
+    --text: #1a1a1a;
+    --muted: #6b7280;
+    --border: #e5e7eb;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Source Serif 4', Georgia, serif;
+    background: var(--bg);
+    color: var(--text);
+    font-size: 16px;
+    line-height: 1.75;
+  }
+  header {
+    background: var(--green);
+    color: white;
+    padding: 48px 24px 40px;
+    text-align: center;
+  }
+  header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(2rem, 5vw, 3rem);
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    margin-bottom: 8px;
+  }
+  header p {
+    opacity: 0.8;
+    font-size: 0.95rem;
+    font-weight: 300;
+  }
+  .lang-nav {
+    background: white;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    padding: 12px 24px;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+  }
+  .lang-btn {
+    padding: 6px 16px;
+    border-radius: 999px;
+    border: 1.5px solid var(--border);
+    background: none;
+    cursor: pointer;
+    font-family: 'Source Serif 4', serif;
+    font-size: 0.875rem;
+    color: var(--muted);
+    transition: all 0.2s;
+  }
+  .lang-btn.active, .lang-btn:hover {
+    background: var(--green);
+    color: white;
+    border-color: var(--green);
+  }
+  .container {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 48px 24px 80px;
+  }
+  .policy-section { display: none; }
+  .policy-section.active { display: block; }
+  .updated {
+    font-size: 0.85rem;
+    color: var(--muted);
+    margin-bottom: 40px;
+    padding: 12px 16px;
+    background: var(--green-pale);
+    border-radius: 8px;
+    border-left: 3px solid var(--green-light);
+  }
+  h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4rem;
+    color: var(--green);
+    margin: 40px 0 14px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--green-pale);
+  }
+  h2:first-of-type { margin-top: 0; }
+  p { margin-bottom: 14px; color: #374151; }
+  ul { margin: 0 0 14px 24px; }
+  ul li { margin-bottom: 6px; color: #374151; }
+  .warning-box {
+    background: #fef3cd;
+    border: 1px solid #f59e0b;
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin: 20px 0;
+  }
+  .warning-box p { margin: 0; color: #92400e; font-weight: 500; }
+  .contact-box {
+    background: var(--green-pale);
+    border-radius: 12px;
+    padding: 24px;
+    margin-top: 40px;
+    text-align: center;
+  }
+  .contact-box h3 {
+    font-family: 'Playfair Display', serif;
+    color: var(--green);
+    margin-bottom: 8px;
+  }
+  .contact-box a { color: var(--green-light); }
+  footer {
+    text-align: center;
+    padding: 24px;
+    font-size: 0.8rem;
+    color: var(--muted);
+    border-top: 1px solid var(--border);
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>🌿 RaizIA</h1>
+  <p>Privacy Policy · Política de Privacidade · Politique de Confidentialité · Política de Privacidad · Datenschutzrichtlinie</p>
+</header>
+
+<nav class="lang-nav">
+  <button class="lang-btn active" onclick="showLang('pt')">🇵🇹 Português</button>
+  <button class="lang-btn" onclick="showLang('en')">🇬🇧 English</button>
+  <button class="lang-btn" onclick="showLang('fr')">🇫🇷 Français</button>
+  <button class="lang-btn" onclick="showLang('es')">🇪🇸 Español</button>
+  <button class="lang-btn" onclick="showLang('de')">🇩🇪 Deutsch</button>
+</nav>
+
+<div class="container">
+
+<!-- PORTUGUÊS -->
+<div id="lang-pt" class="policy-section active">
+  <p class="updated">📅 Última atualização: 4 de Maio de 2026</p>
+
+  <h2>1. Introdução</h2>
+  <p>A RaizIA ("nós", "nosso" ou "app") é uma aplicação móvel de bem-estar que permite aos utilizadores identificar plantas medicinais, analisar rótulos alimentares e aceder a receitas de chás medicinais. Esta Política de Privacidade explica como recolhemos, usamos e protegemos os seus dados pessoais.</p>
+
+  <div class="warning-box"><p>⚠️ A RaizIA é uma ferramenta educativa e informativa. Não substitui aconselhamento médico profissional. Consulte sempre o seu médico antes de iniciar qualquer tratamento com plantas medicinais.</p></div>
+
+  <h2>2. Dados Recolhidos</h2>
+  <p>A RaizIA pode recolher os seguintes tipos de dados:</p>
+  <ul>
+    <li><strong>Dados de conta:</strong> endereço de email e palavra-passe (se criar conta)</li>
+    <li><strong>Imagens:</strong> fotografias tiradas para análise de plantas ou rótulos (processadas temporariamente, não armazenadas permanentemente sem consentimento)</li>
+    <li><strong>Histórico de análises:</strong> resultados de identificações e análises guardados localmente e/ou na sua conta</li>
+    <li><strong>Dados de utilização:</strong> informações anónimas sobre como usa a app para melhorar o serviço</li>
+  </ul>
+
+  <h2>3. Como Usamos os Seus Dados</h2>
+  <ul>
+    <li>Fornecer os serviços de identificação de plantas e análise de rótulos</li>
+    <li>Guardar o seu histórico de análises</li>
+    <li>Melhorar a precisão e funcionalidade da app</li>
+    <li>Enviar notificações relevantes (com o seu consentimento)</li>
+  </ul>
+
+  <h2>4. Partilha de Dados com Terceiros</h2>
+  <p>Os seus dados podem ser partilhados com os seguintes serviços para funcionamento da app:</p>
+  <ul>
+    <li><strong>Supabase:</strong> base de dados e autenticação segura</li>
+    <li><strong>Plant.id (Kindwise):</strong> identificação de plantas medicinais (imagens enviadas temporariamente)</li>
+    <li><strong>Anthropic Claude:</strong> análise de ingredientes alimentares (dados processados temporariamente)</li>
+    <li><strong>Open Food Facts:</strong> base de dados pública de produtos alimentares</li>
+  </ul>
+  <p>Não vendemos, alugamos ou partilhamos os seus dados pessoais com terceiros para fins comerciais.</p>
+
+  <h2>5. Segurança dos Dados</h2>
+  <p>Implementamos medidas de segurança adequadas para proteger os seus dados, incluindo encriptação em trânsito (HTTPS) e em repouso. No entanto, nenhum sistema é 100% seguro.</p>
+
+  <h2>6. Retenção de Dados</h2>
+  <p>Os seus dados são guardados enquanto mantiver a sua conta ativa. Pode solicitar a eliminação da sua conta e todos os dados associados a qualquer momento através das definições da app ou contactando-nos.</p>
+
+  <h2>7. Os Seus Direitos (RGPD)</h2>
+  <p>Se for residente na União Europeia, tem os seguintes direitos:</p>
+  <ul>
+    <li>Acesso aos seus dados pessoais</li>
+    <li>Correção de dados incorretos</li>
+    <li>Eliminação dos seus dados ("direito ao esquecimento")</li>
+    <li>Portabilidade dos dados</li>
+    <li>Oposição ao tratamento</li>
+    <li>Apresentar reclamação à autoridade de proteção de dados</li>
+  </ul>
+
+  <h2>8. Crianças</h2>
+  <p>A RaizIA não é destinada a crianças com menos de 13 anos. Não recolhemos intencionalmente dados de crianças. Se tiver conhecimento de que uma criança nos forneceu dados pessoais, contacte-nos imediatamente.</p>
+
+  <h2>9. Aviso Médico</h2>
+  <div class="warning-box"><p>⚠️ As informações sobre plantas medicinais e receitas de chás fornecidas pela RaizIA têm fins exclusivamente educativos e informativos. O utilizador é totalmente responsável pelas suas escolhas. A RaizIA não se responsabiliza por quaisquer efeitos adversos resultantes do uso de plantas medicinais. Consulte sempre um profissional de saúde antes de usar qualquer planta medicinal, especialmente se estiver grávida, a amamentar, tiver doenças crónicas ou tomar medicamentos.</p></div>
+
+  <h2>10. Alterações a Esta Política</h2>
+  <p>Podemos atualizar esta política periodicamente. Notificaremos os utilizadores sobre alterações significativas através da app. O uso continuado da app após alterações constitui aceitação da nova política.</p>
+
+  <div class="contact-box">
+    <h3>Contacto</h3>
+    <p>Para questões sobre privacidade, contacte:<br>
+    <a href="mailto:morgado.edson@proton.me">morgado.edson@proton.me</a></p>
+  </div>
+</div>
+
+<!-- ENGLISH -->
+<div id="lang-en" class="policy-section">
+  <p class="updated">📅 Last updated: May 4, 2026</p>
+
+  <h2>1. Introduction</h2>
+  <p>RaizIA ("we", "our" or "app") is a wellness mobile application that allows users to identify medicinal plants, analyze food labels, and access herbal tea recipes. This Privacy Policy explains how we collect, use, and protect your personal data.</p>
+
+  <div class="warning-box"><p>⚠️ RaizIA is an educational and informational tool. It does not replace professional medical advice. Always consult your doctor before starting any treatment with medicinal plants.</p></div>
+
+  <h2>2. Data Collected</h2>
+  <p>RaizIA may collect the following types of data:</p>
+  <ul>
+    <li><strong>Account data:</strong> email address and password (if you create an account)</li>
+    <li><strong>Images:</strong> photos taken for plant or label analysis (processed temporarily, not permanently stored without consent)</li>
+    <li><strong>Scan history:</strong> identification and analysis results saved locally and/or in your account</li>
+    <li><strong>Usage data:</strong> anonymous information about how you use the app to improve the service</li>
+  </ul>
+
+  <h2>3. How We Use Your Data</h2>
+  <ul>
+    <li>Provide plant identification and label analysis services</li>
+    <li>Save your scan history</li>
+    <li>Improve the accuracy and functionality of the app</li>
+    <li>Send relevant notifications (with your consent)</li>
+  </ul>
+
+  <h2>4. Third-Party Data Sharing</h2>
+  <p>Your data may be shared with the following services for app functionality:</p>
+  <ul>
+    <li><strong>Supabase:</strong> secure database and authentication</li>
+    <li><strong>Plant.id (Kindwise):</strong> medicinal plant identification (images sent temporarily)</li>
+    <li><strong>Anthropic Claude:</strong> food ingredient analysis (data processed temporarily)</li>
+    <li><strong>Open Food Facts:</strong> public food product database</li>
+  </ul>
+  <p>We do not sell, rent, or share your personal data with third parties for commercial purposes.</p>
+
+  <h2>5. Data Security</h2>
+  <p>We implement appropriate security measures to protect your data, including encryption in transit (HTTPS) and at rest. However, no system is 100% secure.</p>
+
+  <h2>6. Data Retention</h2>
+  <p>Your data is stored as long as you keep your account active. You can request deletion of your account and all associated data at any time through the app settings or by contacting us.</p>
+
+  <h2>7. Your Rights (GDPR)</h2>
+  <p>If you are a resident of the European Union, you have the following rights:</p>
+  <ul>
+    <li>Access to your personal data</li>
+    <li>Correction of incorrect data</li>
+    <li>Deletion of your data ("right to be forgotten")</li>
+    <li>Data portability</li>
+    <li>Objection to processing</li>
+    <li>Lodge a complaint with the data protection authority</li>
+  </ul>
+
+  <h2>8. Children</h2>
+  <p>RaizIA is not intended for children under 13 years of age. We do not intentionally collect data from children. If you become aware that a child has provided us with personal data, please contact us immediately.</p>
+
+  <h2>9. Medical Disclaimer</h2>
+  <div class="warning-box"><p>⚠️ Information about medicinal plants and herbal tea recipes provided by RaizIA is for educational and informational purposes only. The user is solely responsible for their choices. RaizIA is not responsible for any adverse effects resulting from the use of medicinal plants. Always consult a healthcare professional before using any medicinal plant, especially if you are pregnant, breastfeeding, have chronic conditions, or take medications.</p></div>
+
+  <h2>10. Changes to This Policy</h2>
+  <p>We may update this policy periodically. We will notify users of significant changes through the app. Continued use of the app after changes constitutes acceptance of the new policy.</p>
+
+  <div class="contact-box">
+    <h3>Contact</h3>
+    <p>For privacy questions, contact:<br>
+    <a href="mailto:morgado.edson@proton.me">morgado.edson@proton.me</a></p>
+  </div>
+</div>
+
+<!-- FRANÇAIS -->
+<div id="lang-fr" class="policy-section">
+  <p class="updated">📅 Dernière mise à jour: 4 mai 2026</p>
+
+  <h2>1. Introduction</h2>
+  <p>RaizIA ("nous", "notre" ou "application") est une application mobile de bien-être qui permet aux utilisateurs d'identifier des plantes médicinales, d'analyser des étiquettes alimentaires et d'accéder à des recettes de tisanes. Cette Politique de Confidentialité explique comment nous collectons, utilisons et protégeons vos données personnelles.</p>
+
+  <div class="warning-box"><p>⚠️ RaizIA est un outil éducatif et informatif. Il ne remplace pas les conseils médicaux professionnels. Consultez toujours votre médecin avant de commencer tout traitement avec des plantes médicinales.</p></div>
+
+  <h2>2. Données Collectées</h2>
+  <ul>
+    <li><strong>Données de compte:</strong> adresse email et mot de passe (si vous créez un compte)</li>
+    <li><strong>Images:</strong> photos prises pour l'analyse de plantes ou d'étiquettes (traitées temporairement)</li>
+    <li><strong>Historique des analyses:</strong> résultats d'identification sauvegardés localement et/ou dans votre compte</li>
+    <li><strong>Données d'utilisation:</strong> informations anonymes sur l'utilisation de l'application</li>
+  </ul>
+
+  <h2>3. Utilisation de Vos Données</h2>
+  <ul>
+    <li>Fournir les services d'identification de plantes et d'analyse d'étiquettes</li>
+    <li>Sauvegarder votre historique d'analyses</li>
+    <li>Améliorer la précision et les fonctionnalités de l'application</li>
+    <li>Envoyer des notifications pertinentes (avec votre consentement)</li>
+  </ul>
+
+  <h2>4. Partage de Données avec des Tiers</h2>
+  <ul>
+    <li><strong>Supabase:</strong> base de données et authentification sécurisée</li>
+    <li><strong>Plant.id (Kindwise):</strong> identification de plantes médicinales</li>
+    <li><strong>Anthropic Claude:</strong> analyse des ingrédients alimentaires</li>
+    <li><strong>Open Food Facts:</strong> base de données publique de produits alimentaires</li>
+  </ul>
+  <p>Nous ne vendons, ne louons ni ne partageons vos données personnelles avec des tiers à des fins commerciales.</p>
+
+  <h2>5. Sécurité des Données</h2>
+  <p>Nous mettons en œuvre des mesures de sécurité appropriées pour protéger vos données, y compris le chiffrement en transit (HTTPS) et au repos.</p>
+
+  <h2>6. Conservation des Données</h2>
+  <p>Vos données sont conservées tant que votre compte est actif. Vous pouvez demander la suppression de votre compte et de toutes les données associées à tout moment.</p>
+
+  <h2>7. Vos Droits (RGPD)</h2>
+  <ul>
+    <li>Accès à vos données personnelles</li>
+    <li>Correction des données incorrectes</li>
+    <li>Suppression de vos données ("droit à l'oubli")</li>
+    <li>Portabilité des données</li>
+    <li>Opposition au traitement</li>
+    <li>Déposer une plainte auprès de l'autorité de protection des données</li>
+  </ul>
+
+  <h2>8. Enfants</h2>
+  <p>RaizIA n'est pas destinée aux enfants de moins de 13 ans. Nous ne collectons pas intentionnellement de données d'enfants.</p>
+
+  <h2>9. Avertissement Médical</h2>
+  <div class="warning-box"><p>⚠️ Les informations sur les plantes médicinales et les recettes de tisanes fournies par RaizIA sont uniquement à des fins éducatives et informatives. L'utilisateur est seul responsable de ses choix. Consultez toujours un professionnel de santé avant d'utiliser des plantes médicinales.</p></div>
+
+  <h2>10. Modifications de Cette Politique</h2>
+  <p>Nous pouvons mettre à jour cette politique périodiquement. Nous informerons les utilisateurs des modifications importantes via l'application.</p>
+
+  <div class="contact-box">
+    <h3>Contact</h3>
+    <p>Pour toute question de confidentialité:<br>
+    <a href="mailto:morgado.edson@proton.me">morgado.edson@proton.me</a></p>
+  </div>
+</div>
+
+<!-- ESPAÑOL -->
+<div id="lang-es" class="policy-section">
+  <p class="updated">📅 Última actualización: 4 de mayo de 2026</p>
+
+  <h2>1. Introducción</h2>
+  <p>RaizIA ("nosotros", "nuestro" o "aplicación") es una aplicación móvil de bienestar que permite a los usuarios identificar plantas medicinales, analizar etiquetas de alimentos y acceder a recetas de infusiones. Esta Política de Privacidad explica cómo recopilamos, usamos y protegemos sus datos personales.</p>
+
+  <div class="warning-box"><p>⚠️ RaizIA es una herramienta educativa e informativa. No reemplaza el asesoramiento médico profesional. Consulte siempre a su médico antes de iniciar cualquier tratamiento con plantas medicinales.</p></div>
+
+  <h2>2. Datos Recopilados</h2>
+  <ul>
+    <li><strong>Datos de cuenta:</strong> dirección de email y contraseña (si crea una cuenta)</li>
+    <li><strong>Imágenes:</strong> fotos tomadas para análisis de plantas o etiquetas (procesadas temporalmente)</li>
+    <li><strong>Historial de análisis:</strong> resultados de identificaciones guardados localmente y/o en su cuenta</li>
+    <li><strong>Datos de uso:</strong> información anónima sobre cómo usa la aplicación</li>
+  </ul>
+
+  <h2>3. Cómo Usamos Sus Datos</h2>
+  <ul>
+    <li>Proporcionar servicios de identificación de plantas y análisis de etiquetas</li>
+    <li>Guardar su historial de análisis</li>
+    <li>Mejorar la precisión y funcionalidad de la aplicación</li>
+    <li>Enviar notificaciones relevantes (con su consentimiento)</li>
+  </ul>
+
+  <h2>4. Compartición de Datos con Terceros</h2>
+  <ul>
+    <li><strong>Supabase:</strong> base de datos y autenticación segura</li>
+    <li><strong>Plant.id (Kindwise):</strong> identificación de plantas medicinales</li>
+    <li><strong>Anthropic Claude:</strong> análisis de ingredientes alimentarios</li>
+    <li><strong>Open Food Facts:</strong> base de datos pública de productos alimentarios</li>
+  </ul>
+  <p>No vendemos, alquilamos ni compartimos sus datos personales con terceros para fines comerciales.</p>
+
+  <h2>5. Seguridad de los Datos</h2>
+  <p>Implementamos medidas de seguridad apropiadas para proteger sus datos, incluyendo cifrado en tránsito (HTTPS) y en reposo.</p>
+
+  <h2>6. Retención de Datos</h2>
+  <p>Sus datos se almacenan mientras su cuenta esté activa. Puede solicitar la eliminación de su cuenta y todos los datos asociados en cualquier momento.</p>
+
+  <h2>7. Sus Derechos (RGPD)</h2>
+  <ul>
+    <li>Acceso a sus datos personales</li>
+    <li>Corrección de datos incorrectos</li>
+    <li>Eliminación de sus datos ("derecho al olvido")</li>
+    <li>Portabilidad de datos</li>
+    <li>Oposición al tratamiento</li>
+    <li>Presentar una reclamación ante la autoridad de protección de datos</li>
+  </ul>
+
+  <h2>8. Menores</h2>
+  <p>RaizIA no está destinada a menores de 13 años. No recopilamos intencionalmente datos de menores.</p>
+
+  <h2>9. Aviso Médico</h2>
+  <div class="warning-box"><p>⚠️ La información sobre plantas medicinales y recetas de infusiones proporcionada por RaizIA es únicamente con fines educativos e informativos. El usuario es totalmente responsable de sus elecciones. Consulte siempre a un profesional de salud antes de usar cualquier planta medicinal.</p></div>
+
+  <h2>10. Cambios en Esta Política</h2>
+  <p>Podemos actualizar esta política periódicamente. Notificaremos a los usuarios sobre cambios significativos a través de la aplicación.</p>
+
+  <div class="contact-box">
+    <h3>Contacto</h3>
+    <p>Para preguntas sobre privacidad:<br>
+    <a href="mailto:morgado.edson@proton.me">morgado.edson@proton.me</a></p>
+  </div>
+</div>
+
+<!-- DEUTSCH -->
+<div id="lang-de" class="policy-section">
+  <p class="updated">📅 Zuletzt aktualisiert: 4. Mai 2026</p>
+
+  <h2>1. Einführung</h2>
+  <p>RaizIA ("wir", "unser" oder "App") ist eine mobile Wellness-Anwendung, mit der Benutzer Heilpflanzen identifizieren, Lebensmitteletiketten analysieren und auf Kräutertee-Rezepte zugreifen können. Diese Datenschutzrichtlinie erklärt, wie wir Ihre persönlichen Daten erheben, verwenden und schützen.</p>
+
+  <div class="warning-box"><p>⚠️ RaizIA ist ein Bildungs- und Informationswerkzeug. Es ersetzt keine professionelle medizinische Beratung. Konsultieren Sie immer Ihren Arzt, bevor Sie eine Behandlung mit Heilpflanzen beginnen.</p></div>
+
+  <h2>2. Erhobene Daten</h2>
+  <ul>
+    <li><strong>Kontodaten:</strong> E-Mail-Adresse und Passwort (wenn Sie ein Konto erstellen)</li>
+    <li><strong>Bilder:</strong> Fotos für die Pflanzen- oder Etikettenanalyse (vorübergehend verarbeitet)</li>
+    <li><strong>Scan-Verlauf:</strong> lokal und/oder in Ihrem Konto gespeicherte Analyseergebnisse</li>
+    <li><strong>Nutzungsdaten:</strong> anonyme Informationen über die App-Nutzung</li>
+  </ul>
+
+  <h2>3. Verwendung Ihrer Daten</h2>
+  <ul>
+    <li>Bereitstellung von Pflanzenidentifikations- und Etikettenanalysediensten</li>
+    <li>Speicherung Ihres Scan-Verlaufs</li>
+    <li>Verbesserung der Genauigkeit und Funktionalität der App</li>
+    <li>Senden relevanter Benachrichtigungen (mit Ihrer Zustimmung)</li>
+  </ul>
+
+  <h2>4. Datenweitergabe an Dritte</h2>
+  <ul>
+    <li><strong>Supabase:</strong> sichere Datenbank und Authentifizierung</li>
+    <li><strong>Plant.id (Kindwise):</strong> Heilpflanzenidentifikation</li>
+    <li><strong>Anthropic Claude:</strong> Analyse von Lebensmittelzutaten</li>
+    <li><strong>Open Food Facts:</strong> öffentliche Lebensmitteldatenbank</li>
+  </ul>
+  <p>Wir verkaufen, vermieten oder teilen Ihre persönlichen Daten nicht mit Dritten für kommerzielle Zwecke.</p>
+
+  <h2>5. Datensicherheit</h2>
+  <p>Wir implementieren angemessene Sicherheitsmaßnahmen zum Schutz Ihrer Daten, einschließlich Verschlüsselung bei der Übertragung (HTTPS) und im Ruhezustand.</p>
+
+  <h2>6. Datenspeicherung</h2>
+  <p>Ihre Daten werden gespeichert, solange Ihr Konto aktiv ist. Sie können jederzeit die Löschung Ihres Kontos und aller zugehörigen Daten beantragen.</p>
+
+  <h2>7. Ihre Rechte (DSGVO)</h2>
+  <ul>
+    <li>Zugang zu Ihren persönlichen Daten</li>
+    <li>Berichtigung unrichtiger Daten</li>
+    <li>Löschung Ihrer Daten ("Recht auf Vergessenwerden")</li>
+    <li>Datenübertragbarkeit</li>
+    <li>Widerspruch gegen die Verarbeitung</li>
+    <li>Beschwerde bei der Datenschutzbehörde einreichen</li>
+  </ul>
+
+  <h2>8. Kinder</h2>
+  <p>RaizIA ist nicht für Kinder unter 13 Jahren bestimmt. Wir erheben nicht absichtlich Daten von Kindern.</p>
+
+  <h2>9. Medizinischer Haftungsausschluss</h2>
+  <div class="warning-box"><p>⚠️ Die von RaizIA bereitgestellten Informationen über Heilpflanzen und Kräutertee-Rezepte dienen ausschließlich Bildungs- und Informationszwecken. Der Benutzer ist allein verantwortlich für seine Entscheidungen. Konsultieren Sie immer einen Gesundheitsfachmann, bevor Sie Heilpflanzen verwenden.</p></div>
+
+  <h2>10. Änderungen dieser Richtlinie</h2>
+  <p>Wir können diese Richtlinie regelmäßig aktualisieren. Wir informieren Benutzer über wesentliche Änderungen über die App.</p>
+
+  <div class="contact-box">
+    <h3>Kontakt</h3>
+    <p>Bei Datenschutzfragen:<br>
+    <a href="mailto:morgado.edson@proton.me">morgado.edson@proton.me</a></p>
+  </div>
+</div>
+
+</div><!-- /container -->
+
+<footer>
+  <p>© 2026 RaizIA · Todos os direitos reservados · All rights reserved</p>
+</footer>
+
+<script>
+function showLang(lang) {
+  document.querySelectorAll('.policy-section').forEach(s => s.classList.remove('active'));
+  document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById('lang-' + lang).classList.add('active');
+  event.target.classList.add('active');
+}
+</script>
+</body>
+</html>
